@@ -20,7 +20,7 @@ type Openvpn Precess struct {
   config        *config.GenericConfig
   tunnelsetup   Setup.tunnel
   management    *management.Management
-  cmd           *CmdWoker
+  cmd           *CmdWapper
  }
  
 func startProcess{
